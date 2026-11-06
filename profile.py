@@ -1,6 +1,16 @@
-"""This is a basic profile with two hosts connected by a router.
+"""
+## TCP Part I
+
+This profile includes two hosts connected by a router, with offloading disabled.
+
+Lab instructions:
+
+- [Reserve resources on CloudLab](https://ffund.github.io/tcp-ip-essentials/lab-tcp-socket/reserve-cloudlab)
+- [TCP sockets](https://ffund.github.io/tcp-ip-essentials/lab-tcp-socket/sockets)
+- [TCP error control](https://ffund.github.io/tcp-ip-essentials/lab-tcp-error/error)
+
 Instructions:
-Wait for the profile instance to start, then log in to each node by clicking on it in the topology and choosing the `shell` menu item. 
+Wait for the profile instance to start, then log in to each node by clicking on it in the topology and choosing the `shell` menu item.
 """
 
 
@@ -58,4 +68,3 @@ link_1.addInterface(iface1)
 
 # Print the generated rspec
 pc.printRequestRSpec(request)
-

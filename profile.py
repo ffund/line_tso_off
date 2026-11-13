@@ -1,13 +1,18 @@
 """
-## TCP Part I
+## TCP Parts I and II
 
 This profile includes two hosts connected by a router, with offloading disabled.
 
-Lab instructions:
+### TCP Part I
 
 - [Reserve resources on CloudLab](https://ffund.github.io/tcp-ip-essentials/lab-tcp-socket/reserve-cloudlab)
 - [TCP sockets](https://ffund.github.io/tcp-ip-essentials/lab-tcp-socket/sockets)
 - [TCP error control](https://ffund.github.io/tcp-ip-essentials/lab-tcp-error/error)
+
+### TCP Part II
+
+- [Reserve resources on CloudLab](https://ffund.github.io/tcp-ip-essentials/lab-tcp-congestion/reserve-cloudlab)
+- [Receive window and congestion window](https://ffund.github.io/tcp-ip-essentials/lab-tcp-bulk/rwnd-cwnd)
 
 Instructions:
 Wait for the profile instance to start, then log in to each node by clicking on it in the topology and choosing the `shell` menu item.
